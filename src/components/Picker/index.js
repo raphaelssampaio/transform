@@ -28,8 +28,6 @@ class Picker extends PureComponent {
     const {items, placeholder, ...rest} = this.props;
     const {selectedItem} = this.state;
 
-    console.log(selectedItem);
-
     return (
       <View style={styles.container}>
         <RNPickerSelect
